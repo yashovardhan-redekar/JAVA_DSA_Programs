@@ -1,4 +1,5 @@
 package Strings;
+import java.util.*;
 
 public class strlength {
     static int lengthofstring(String str){
@@ -8,7 +9,9 @@ public class strlength {
     }
 
     public static void main(String[] args) {
-        String str = "yash";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter any string: ");
+        String str = sc.nextLine();
         System.out.println(lengthofstring(str));
     }
 }

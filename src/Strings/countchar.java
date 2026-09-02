@@ -1,6 +1,6 @@
 package Strings;
 
-public class printchar {
+public class countchar {
     static void printstring(String str){
         int n = str.length();
         for(int i =0; i< n; i++){
