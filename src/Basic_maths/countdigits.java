@@ -9,7 +9,7 @@ public class countdigits {
             count++;
             num = num/10;
         }
-        System.out.println("tootal digits: "+count);
+        System.out.println("total digits: "+count);
     }
 
     public static void main(String[] args) {
